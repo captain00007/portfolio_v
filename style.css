@@ -1,0 +1,94 @@
+/*First frame init style*/
+#main-content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.first-frame{
+    background-color: #f2f3f7;
+    height: 150vh;
+    line-height: 4vh;
+    text-align: center;
+    padding: 50px 20px 0px;
+}
+
+.first-frame .img-box{
+    margin-bottom: 30px;
+}
+
+.img-box img.avatar{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.first-frame #first-title{
+    font-weight: 700;
+    font-size:x-large
+}
+
+.first-frame ul li{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.nav-link{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-link:hover{
+    color: black;
+}
+/*First frame fim*/
+
+/*Second frame init style*/
+.second-frame{
+    padding-top: 20vh;
+    padding-left: 2vw;
+}
+
+#second-title{
+    margin-bottom: 10vh;
+}
+
+.img-box{
+    text-align: center;
+}
+
+.img-box img{
+    margin-top: 30px;
+    height: 30vh;
+}
+
+.skills .skill-name{
+    margin-bottom: 35px;
+}
+
+.skills{
+    margin-bottom: 2rem;
+}
+
+.skills span{
+    margin-right: 0.5rem;
+}
+/*Second frame fim*/
+
+@media only screen and (max-width: 767px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .first-frame{
+        height: 105vh; 
+    }
+
+    .second-frame{
+        padding-top: 5vh;
+        padding-left: 2vw;
+    }
+
+    #second-title{
+        margin-bottom: 1.5rem;
+    }
+}
